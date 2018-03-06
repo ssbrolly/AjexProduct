@@ -1,0 +1,15 @@
+<div class="ui container">
+  <h1>Welcome</h1>
+
+  <%= render 'form' %>
+
+
+  <form class="ui form">
+    <h4>Name</h4>
+    <input type="text" name="name" placeholder="Name"/>
+    <h4>Description</h4>
+    <input type="text" name="description" placeholder="Description"/>
+    <button class="ui button" type="submit">Add Product</button>
+  </form>
+  <div id="products" class="ui grid cards"></div>
+</div>
